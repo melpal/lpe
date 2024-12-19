@@ -1,0 +1,114 @@
+/*Codé par Melissa PALACIOS*/
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Rubik Bubbles', sans-serif;
+    background-color: #FDF5E6; /* Beige clair */
+    color: #4E342E; /* Marron foncé */
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-family: 'Abril Fatface', cursive;
+    color: #B8860B; /* Or */
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+p {
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+header {
+    background-color: #FFF8E1; /* Beige clair */
+    padding: 50px 0;
+    text-align: center;
+    border-bottom: 2px solid #B8860B; /* Or */
+}
+
+.collage, .palace-image {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    margin: 0 auto 30px;
+    display: block;
+    border: 5px solid #B8860B; /* Or */
+    border-radius: 10px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #8D6E63; /* Marron */
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #5D4037; /* Marron foncé */
+}
+
+.choice-header .palace-options {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.palace-card {
+    background-color: #FFF8E1; /* Beige clair */
+    border: 2px solid #B8860B; /* Or */
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.palace-card:hover {
+    transform: scale(1.05);
+}
+
+.palace-card h2 {
+    font-family: 'Abril Fatface', cursive;
+    color: #B8860B; /* Or */
+    margin: 20px 0;
+}
+
+.palace-header img {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 20px;
+    border: 5px solid #B8860B; /* Or */
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #4d2600; /* Marron foncé */
+    color: #fff; /* Blanc */
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+    font-family: 'Indie Flower', cursive;
+}
